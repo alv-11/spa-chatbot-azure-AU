@@ -1,0 +1,10 @@
+streamlit
+chromadb
+sentence-transformers
+PyMuPDF
+spacy
+torch
+huggingface-hub
+groq
+python-dotenv
+langsmith

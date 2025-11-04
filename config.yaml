@@ -1,0 +1,11 @@
+preprocessing:
+  spacy_model: "es_core_news_md"
+  db_path: "spa_hotel.pdf"
+  pdf_path: "original_filtered_bbdd.pdf"
+  
+models:
+  embeddings: "paraphrase-multilingual-MiniLM-L12-v2"
+  llm: "openai/gpt-oss-120b"
+  cross_encoder: "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1"
+database:
+  chroma_path: "./chromadb"

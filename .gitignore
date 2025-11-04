@@ -1,0 +1,17 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos de sistema
+__pycache__/
+*.pyc
+.DS_Store
+
+# PDFs o datos locales
+*.pdf
+
+# Archivos temporales
+*.log
+# Base de datos local de Chroma
+chroma/
+chromadb/
