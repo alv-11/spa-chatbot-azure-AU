@@ -15,3 +15,6 @@ __pycache__/
 # Base de datos local de Chroma
 chroma/
 chromadb/
+
+# Claves privadas
+.env
